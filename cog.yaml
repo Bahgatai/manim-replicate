@@ -1,0 +1,11 @@
+build:
+  python_version: "3.11"
+  system_packages:
+    - ffmpeg
+    - texlive-latex-base
+    - texlive-fonts-recommended
+    - texlive-latex-extra
+  python_packages:
+    - manim==0.18.0
+
+predict: "predict.py:Predictor"
