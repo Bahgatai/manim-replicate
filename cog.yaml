@@ -1,11 +1,18 @@
 build:
+  gpu: false
   python_version: "3.11"
   system_packages:
     - ffmpeg
     - texlive-latex-base
     - texlive-fonts-recommended
     - texlive-latex-extra
+    - libcairo2-dev
+    - libpango1.0-dev
+    - pkg-config
+    - python3-dev
+    - libgirepository1.0-dev
+    - gir1.2-pango-1.0
   python_packages:
     - manim==0.18.0
 
-predict: "predict.py:Predictor"
+predict: predict.py
