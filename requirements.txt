@@ -1,4 +1,1 @@
-git add .
-git commit -m "Fix cog.yaml format"
-git push
-cog push r8.im/bahgatai/main
+manim==0.18.0
